@@ -1,9 +1,11 @@
 import React from "react";
+import Navbar from "../components/navbar/index";
 
 function Home() {
     return (
-        <div className="container-fluid min-vh-100 p-5 d-flex flex-column">
-            <div className="bg-light flex-grow-1 rounded"></div>
+        <div>
+            <Navbar />
+            <div className="container-fluid"></div>
         </div>
     );
 }
