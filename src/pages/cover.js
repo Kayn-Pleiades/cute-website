@@ -7,7 +7,7 @@ function Cover() {
         <div className="col-3 bg-success align-self-end">Chibi picture asking viewer to pick a language goes here</div>
         <div className="col-3 align-self-center">
           <div className="d-grid">
-            <button class="btn btn-primary" type="button">American Flag Image</button>
+            <a href="home" class="btn btn-primary" type="button">American Flag Image</a>
           </div>
         </div>
         <div className="col-3 align-self-center">
