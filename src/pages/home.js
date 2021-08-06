@@ -5,7 +5,9 @@ function Home() {
     return (
         <div>
             <Navbar />
-            <div className="container-fluid"></div>
+            <div className="container-fluid">
+                
+            </div>
         </div>
     );
 }
