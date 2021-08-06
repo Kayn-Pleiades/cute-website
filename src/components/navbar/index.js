@@ -15,20 +15,20 @@ function Navbar() {
                 <ul className="navbar-nav justify-content-end" style={{ width: "100%" }}>
                     <li className="nav-item">
                         <Link
-                            to="/home"
-                            className={
-                                window.location.pathname === "/home" ? "nav-link active" : "nav-link"}
-                        >
-                            Home
-                        </Link>
-                    </li>
-                    <li className="nav-item">
-                        <Link
                             to="/about"
                             className={
                                 window.location.pathname === "/about" ? "nav-link active" : "nav-link"}
                         >
                             About
+                        </Link>
+                    </li>
+                    <li className="nav-item">
+                        <Link
+                            to="/members"
+                            className={
+                                window.location.pathname === "/members" ? "nav-link active" : "nav-link"}
+                        >
+                            Members
                         </Link>
                     </li>
                     <li className="nav-item">
