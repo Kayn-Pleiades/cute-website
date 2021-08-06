@@ -1,0 +1,22 @@
+[
+    {
+        "id": 1,
+        "name": "First Member",
+        "image": "https://github.com/Kayn-Pleiades/cute-website/blob/main/src/assets/img/samplememberpic.png?raw=true"
+    },
+    {
+        "id": 2,
+        "name": "Second Member",
+        "image": "https://github.com/Kayn-Pleiades/cute-website/blob/main/src/assets/img/samplememberpic.png?raw=true"
+    },
+    {
+        "id": 3,
+        "name": "Third Member",
+        "image": "https://github.com/Kayn-Pleiades/cute-website/blob/main/src/assets/img/samplememberpic.png?raw=true"
+    },
+    {
+        "id": 4,
+        "name": "Forth Member",
+        "image": "https://github.com/Kayn-Pleiades/cute-website/blob/main/src/assets/img/samplememberpic.png?raw=true"
+    }
+]
