@@ -1,0 +1,6 @@
+.hero {
+    background-image: url("https://raw.githubusercontent.com/Kayn-Pleiades/cute-website/main/src/assets/img/sampleheroimg.jpg");
+    height: 500px;
+    background-size: cover;
+    background-position: center;
+}
