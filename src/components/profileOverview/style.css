@@ -1,4 +1,22 @@
-.card-text {
-    justify-content: start;
-    line-height: 100px;
+.profile-pic {
+    border-top-left-radius: 50rem;
+    border-bottom-left-radius: 50rem;
+}
+
+ul {
+    list-style-type: none;
+}
+
+.question {
+    font-size: x-large;
+    font-weight: bold;
+    text-align: end;
+    -webkit-text-stroke-width: 0.2px;
+    -webkit-text-stroke-color: black;
+    text-shadow: 2px 2px 4px #000000, 1px 1px 0 #000;
+}
+
+.answer {
+    text-align: start;
+    font-size: x-large;
 }

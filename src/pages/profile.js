@@ -37,6 +37,7 @@ function Profile() {
                         <ProfileOverview 
                         image={thisMember.image}
                         color={thisMember.color}
+                        debut={thisMember.debut}
                         />
                     </div>
                 </div>

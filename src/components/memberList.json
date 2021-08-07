@@ -1,10 +1,12 @@
 [
     {
         "id": 1,
-        "name": "Name",
-        "url": "Member1",
+        "name": "Mello",
+        "url": "Mello",
         "image": "https://github.com/Kayn-Pleiades/cute-website/blob/main/src/assets/img/samplememberpic.png?raw=true",
-        "color": "blue"
+        "color": "aqua",
+        "debut": "March 3rd, 2021",
+        "birthday": ""
     },
     {
         "id": 2,
