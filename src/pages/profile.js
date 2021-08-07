@@ -38,6 +38,11 @@ function Profile() {
                         image={thisMember.image}
                         color={thisMember.color}
                         debut={thisMember.debut}
+                        birthday={thisMember.birthday}
+                        pronouns={thisMember.pronouns}
+                        content={thisMember.content}
+                        artist={thisMember.artist}
+                        rig={thisMember.rig}
                         />
                     </div>
                 </div>

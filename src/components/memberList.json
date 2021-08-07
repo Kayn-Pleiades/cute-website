@@ -6,7 +6,11 @@
         "image": "https://github.com/Kayn-Pleiades/cute-website/blob/main/src/assets/img/samplememberpic.png?raw=true",
         "color": "aqua",
         "debut": "March 3rd, 2021",
-        "birthday": ""
+        "birthday": "April 13th",
+        "pronouns": "He/Him",
+        "content": "Art",
+        "artist": "Mello",
+        "rig": "Mello"
     },
     {
         "id": 2,

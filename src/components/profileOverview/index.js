@@ -17,9 +17,7 @@ function ProfileOverview(props) {
                                         <li className="question">Debut</li>
                                         <li className="question">Birthday</li>
                                         <li className="question">Pronouns</li>
-                                        <li className="question">Fanbase Name</li>
-                                        <li className="question">Oshi Mark</li>
-                                        <li className="question">Stream Content</li>
+                                        <li className="question">Content</li>
                                         <li className="question">Model Artist</li>
                                         <li className="question">Model Rig</li>
                                     </ul>
@@ -27,6 +25,11 @@ function ProfileOverview(props) {
                                 <div className="col-md-8">
                                     <ul>
                                         <li className="answer">{props.debut}</li>
+                                        <li className="answer">{props.birthday}</li>
+                                        <li className="answer">{props.pronouns}</li>
+                                        <li className="answer">{props.content}</li>
+                                        <li className="answer">{props.artist}</li>
+                                        <li className="answer">{props.rig}</li>
                                     </ul>
                                 </div>
                             </div>
