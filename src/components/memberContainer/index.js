@@ -12,10 +12,13 @@ class MemberContainer extends Component {
         return (
             <div className="row row-cols-4 g-4">
                 {this.state.members.map(member => (
-                    <ProfileCard
-                        image={member.image}
-                        name={member.name}
-                    />
+                    <div className="col">
+                        <ProfileCard
+                            image={member.image}
+                            name={member.name}
+                            color={member.color}
+                        />
+                    </div>
                 ))}
             </div>
         )
