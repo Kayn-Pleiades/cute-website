@@ -1,0 +1,16 @@
+@import url('https://fonts.googleapis.com/css?family=Secular+One');
+
+p {
+    font-size: 80px;
+    font-family: 'Secular One';
+    color: black;
+    -webkit-text-fill-color: white; 
+    -webkit-text-stroke-width: 3px;
+    -webkit-text-stroke-color: black;
+    text-shadow:
+       3px 3px 0 #000,
+     -1px -1px 0 #000,  
+      1px -1px 0 #000,
+      -1px 1px 0 #000,
+       1px 1px 0 #000;
+}

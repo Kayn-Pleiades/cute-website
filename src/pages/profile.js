@@ -1,8 +1,10 @@
   
 import React, { useEffect, useState } from 'react';
 import { useParams } from 'react-router-dom';
+import Navbar from "../components/navbar";
 import ProfileOverview from '../components/profileOverview';
 import members from '../components/memberList.json';
+import './profile.css';
 
 function Profile() {
     const [thisMember, setMember] = useState({});
@@ -22,11 +24,24 @@ function Profile() {
     });
 
     return (
-      <div>
-        <ProfileOverview 
-            color={thisMember.color}
-        />
-      </div>
+        <div>
+            <Navbar />
+            <div className="container-fluid">
+                <div className="row d-flex text-center justify-content-center">
+                    <div className="col pt-5">
+                        <p>{thisMember.name}</p>
+                    </div>
+                </div>
+                <div className="row d-flex justify-content-center">
+                    <div className="col-7">
+                        <ProfileOverview 
+                        image={thisMember.image}
+                        color={thisMember.color}
+                        />
+                    </div>
+                </div>
+            </div>
+        </div>
     );
 }
 
