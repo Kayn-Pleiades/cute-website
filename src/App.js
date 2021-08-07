@@ -1,5 +1,5 @@
 import './App.css';
-import { BrowserRouter as Router, Route } from "react-router-dom";
+import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 import Cover from "./pages/cover";
 import Home from "./pages/home";
 import About from './pages/about';
@@ -11,7 +11,7 @@ import Members from './pages/members';
 function App() {
   return (
     <Router>
-      <div>
+      <Switch>
           <Route exact path="/" component={Cover} />
           <Route exact path="/home" component={Home} />
           <Route exact path="/about" component={About} />
@@ -19,7 +19,7 @@ function App() {
           <Route exact path="/activities" component={Activities} />
           <Route exact path="/schedule" component={Schedule} />
           <Route exact path="/goods" component={Goods} />
-      </div>
+      </Switch>
     </Router>
   )
 }

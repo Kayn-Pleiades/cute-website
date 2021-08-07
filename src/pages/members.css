@@ -1,13 +1,9 @@
 @import url('https://fonts.googleapis.com/css?family=Secular+One');
 
-.card-title {
+h1 {
     display: flex;
     justify-content: center;
     align-items: flex-end;
-    height: 90%;
-}
-
-h2 {
     font-family: 'Secular One';
     color: black;
     -webkit-text-fill-color: white; 

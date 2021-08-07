@@ -8,7 +8,7 @@ function ProfileCard(props) {
         <div className="card rounded-circle" style={styles} onMouseEnter={() => setColor(props.color)} onMouseLeave={() => setColor("")}>
             <img src={props.image} className="card-img rounded-circle" alt="Member"></img>
             <div className="card-img-overlay">
-                <h5 className="card-title">{props.name}</h5>
+                <h2 className="card-title">{props.name}</h2>
             </div>
         </div>
     );
