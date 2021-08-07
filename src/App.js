@@ -7,15 +7,7 @@ import Activities from './pages/activities';
 import Schedule from './pages/schedule';
 import Goods from './pages/goods';
 import Members from './pages/members';
-
-const ErrorPage = () => {
-  return (
-    <div style={{ textAlign: "center" }}>
-      <h1> 404: Page Not Found</h1>
-    </div>
-  );
-};
-
+import Profile from './pages/profile';
 
 function App() {
   return (
@@ -29,7 +21,6 @@ function App() {
           <Route exact path="/schedule" component={Schedule} />
           <Route exact path="/goods" component={Goods} />
           <Route exact path="/:id" component={Profile} />
-          <Route component={ErrorPage} />
       </Switch>
     </Router>
   )

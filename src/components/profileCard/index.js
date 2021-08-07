@@ -6,7 +6,7 @@ function ProfileCard(props) {
     const styles = { backgroundColor: color };
     return (
         <div className="card rounded-circle" style={styles} onMouseEnter={() => setColor(props.color)} onMouseLeave={() => setColor("")}>
-            <img src={props.image} className="card-img rounded-circle" alt="Member"></img>
+             <a href={"/"+props.url} className="stretched-link"><img src={props.image} className="card-img rounded-circle" alt="Member"></img></a>
             <div className="card-img-overlay">
                 <h2 className="card-title">{props.name}</h2>
             </div>

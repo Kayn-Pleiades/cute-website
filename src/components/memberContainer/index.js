@@ -17,6 +17,7 @@ class MemberContainer extends Component {
                             image={member.image}
                             name={member.name}
                             color={member.color}
+                            url={member.url}
                         />
                     </div>
                 ))}
